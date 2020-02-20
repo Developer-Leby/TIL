@@ -1,4 +1,4 @@
-[![Blog](https://img.shields.io/badge/Blog-DEVELOPER_LEBY-yellow)](https://app-developer.tistory.com/)
+[![Blog](https://img.shields.io/badge/Blog-DEVELOPER_LEBY-success)](https://app-developer.tistory.com/)
 
 
 
