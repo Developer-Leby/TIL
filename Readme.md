@@ -1,4 +1,4 @@
-![Blog](https://img.shields.io/badge/Blog-DEVELOPER LEBY-yellow)
+![Blog](https://img.shields.io/badge/Blog-DEVELOPER_LEBY-yellow)
 
 
 ## Today I Learned
