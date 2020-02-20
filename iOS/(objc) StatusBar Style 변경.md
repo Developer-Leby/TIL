@@ -63,7 +63,7 @@ override func preferredStatusBarStyle() -> UIStatusBarStyle {
 
 
 
-![UIStatusBarStyleLightContent](../Resource/UIStatusBarStyleLightContent.png)
+![UIStatusBarStyleLightContent](../resources/UIStatusBarStyleLightContent.png)
 
-![UIStatusBarStyleDefault](../Resource/UIStatusBarStyleDefault.png)
+![UIStatusBarStyleDefault](../resources/UIStatusBarStyleDefault.png)
 

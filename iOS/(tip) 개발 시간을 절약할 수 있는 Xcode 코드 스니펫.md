@@ -40,7 +40,7 @@
 
 **Completion Shortcut :** 코드 스니펫 숏컷 이름 (comment)
 
-![CodeSnippet-1](../Resource/CodeSnippet-1.gif)
+![CodeSnippet-1](../resources/CodeSnippet-1.gif)
 
 <br />
 
@@ -50,7 +50,7 @@
 
 이렇게 하면 코드 스니펫을 추가하고 위에서 지정해준 숏컷 이름(comment)를 입력하면 주석이 바로 생성된다.
 
-![CodeSnippet-2](../Resource/CodeSnippet-2.gif)
+![CodeSnippet-2](../resources/CodeSnippet-2.gif)
 
 <br />
 
@@ -67,7 +67,7 @@
 
 주석에 보면 날짜 항목이 있는데, 날짜는 매번 변경되는 부분이므로 문자를 <u><# #></u>을 감싸놓으면 편집 항목으로 변경된다.
 
-![CodeSnippet-3](../Resource/CodeSnippet-3.gif)
+![CodeSnippet-3](../resources/CodeSnippet-3.gif)
 
 <br />
 

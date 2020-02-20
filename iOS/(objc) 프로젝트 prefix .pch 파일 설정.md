@@ -22,7 +22,7 @@ prefix 파일의 확장자는 `.pch` 파일이고 파일명은 원하는데로 �
 
 이름은 원하는 이름으로 설정해도 상관없다.
 
-![CreatePrefix](../Resource/CreatePrefix.png)
+![CreatePrefix](../resources/CreatePrefix.png)
 
 
 
@@ -65,5 +65,5 @@ prefix 파일의 확장자는 `.pch` 파일이고 파일명은 원하는데로 �
 
 위와 같이 Path 설정을 해주면 프로젝트 어디서든 prefix 값을 사용할 수 있다.
 
-![prefixPath](../Resource/prefixPath.png)
+![prefixPath](../resources/prefixPath.png)
 

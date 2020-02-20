@@ -44,10 +44,10 @@ iOS 11부터는 앨범에 접근할 때 권한 하나를 더 입력해야된다.
 
 카메라와 앨범, 사용자의 위치 조회에 대한 기능을 사용하기 위해서는 Privacy를 추가하면 된다.
 
-![PrivacySetting](../Resource/PrivacySetting.png)
+![PrivacySetting](../resources/PrivacySetting.png)
 
 <br/>
 
 이제 소스 코드에서 해당 기능을 사용할 때 권한을 승인 받는 화면이 사용자에게 보여진다.
 
-![PrivacyScreenshot](../Resource/PrivacyScreenshot.jpeg)
+![PrivacyScreenshot](../resources/PrivacyScreenshot.jpeg)

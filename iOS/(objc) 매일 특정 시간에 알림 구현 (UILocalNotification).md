@@ -1,6 +1,6 @@
 # 매일 특정 시간에 알림 구현 (UILocalNotification)
 
-![UILocalNotification](../Resource/UILocalNotification.png)
+![UILocalNotification](../resources/UILocalNotification.png)
 
 iOS에서 매일 특정 시간에 알림을 받을 수 있는 방법에 대해서 정리하려고 한다.
 

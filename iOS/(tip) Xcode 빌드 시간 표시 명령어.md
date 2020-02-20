@@ -11,4 +11,6 @@ $ defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 
 <br />
 
-![BuildSecond](../Resource/BuildSecond.png)
+![BuildSecond](../
+
+s/BuildSecond.png)

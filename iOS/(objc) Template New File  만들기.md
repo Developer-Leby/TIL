@@ -1,6 +1,6 @@
 # Template New File  만들기
 
-![TemplateUse](../Resource/TemplateUse.png)
+![TemplateUse](../resources/TemplateUse.png)
 
 
 
@@ -25,7 +25,7 @@ iOS Template이 무엇인가? 내가 사용하기 편리하게 미리 `Override 
 
 템플릿을 사용하기 위해서는 아래와 같은 파일들이 필요합니다.
 
-![TemplateFile](../Resource/TemplateFile.png)
+![TemplateFile](../resources/TemplateFile.png)
 
 <br />
 
@@ -111,7 +111,7 @@ ViewController에 대해 템플릿을 만들어서 다음과 같이 지었다. �
 
 
 
-![TemplatePlist](../Resource/TemplatePlist.png)
+![TemplatePlist](../resources/TemplatePlist.png)
 
 여기까지 만들면 템플릿을 설정할 파일을 모두 만든 것이다.
 
@@ -135,15 +135,15 @@ ViewController에 대해 템플릿을 만들어서 다음과 같이 지었다. �
 
 이 경로에서 Leby라는 폴더를 만들었고, 아까 만든 템플릿 폴더를 안에 넣어두었다.
 
-![TemplatePath](../Resource/TemplatePath.png)
+![TemplatePath](../resources/TemplatePath.png)
 
 여기까지 설정이 끝났으면 이제 Xcode에서 `File > New File`을 생성할 때 다음과 같이 보여지는 것을 확인할 수 있다.
 
-![TemplateUse](../Resource/TemplateUse.png)
+![TemplateUse](../resources/TemplateUse.png)
 
 실제로 파일을 생성해서 안에 내용을 보면 다음과 같이 보인다.
 
-![TemplateViewController](../Resource/TemplateViewController.png)
+![TemplateViewController](../resources/TemplateViewController.png)
 
 <br />
 

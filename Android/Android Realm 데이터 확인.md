@@ -12,7 +12,7 @@ Realm 데이터를 확인하기 위해서는 `.realm` 확장자 포멧을 열어
 
 `AppStore`에 이동하여 검색창에 `Realm Browser`라고 입력하고 설치한다.
 
-![RealmBrowser](../Resource/RealmBrowser.png)
+![RealmBrowser](../resources/RealmBrowser.png)
 
  [**앱스토어 다운로드**](https://itunes.apple.com/kr/app/realm-browser/id1007457278?mt=12)
 
@@ -106,7 +106,7 @@ adb root 명령어 입력했을 때 다음과 같이 error 발생할 수 있다.
 
 에러가 발생하는 원인은 `Emulator`에서 `Target`을 `Google Play`로 설정한 경우 다음과 같이 adb root로 변경이 불가능하다.
 
-![adbTargetGooglePlay](../Resource/adbTargetGooglePlay.png)
+![adbTargetGooglePlay](../resources/adbTargetGooglePlay.png)
 
 <br />
 

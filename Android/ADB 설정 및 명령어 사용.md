@@ -46,7 +46,7 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 아래와 같이 보인다면 설정이 완료된 것이다.
 
-![adbExcute](../Resource/adbExcute.png)
+![adbExcute](../resources/adbExcute.png)
 
 <br />
 

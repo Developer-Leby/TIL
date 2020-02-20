@@ -25,7 +25,7 @@ iOS 6.0+ 부터 제공하는 `SKStoreProductViewController`를 사용하면 앱�
 
 **프로젝트 > Build Phases > Link Binary With Libraries** 
 
-![StoreKitFramework](../Resource/StoreKitFramework.png)
+![StoreKitFramework](../resources/StoreKitFramework.png)
 
 <br />
 
@@ -97,4 +97,4 @@ loadProductWithParameters:productParameters completionBlock 이 메서드를 호
 
 # 실행 화면
 
-![StoreKitResult](../Resource/StoreKitResult.png)
+![StoreKitResult](../resources/StoreKitResult.png)

@@ -53,7 +53,7 @@ Would you like to do view based testing? [ Yes / No ]
 
 lib 파일이 생성이 되면 자동으로 .xcworkspace 파일의 Xcode가 실행이 됩니다. 혹시라도 실행되지 않는다면 다음 경로로 이동하셔서 .xcworkspace 파일을 실행주시면 됩니다.
 
-![PodLibraryPath](../Resource/PodLibraryPath.png)
+![PodLibraryPath](../resources/PodLibraryPath.png)
 
 Xcode에서 빌드 성공을 하는지 확인합니다.
 
@@ -87,7 +87,7 @@ end
 $ pod install
 ```
 
-![PodInstall](../Resource/PodInstall.png)
+![PodInstall](../resources/PodInstall.png)
 
 위와 같이 진행하면 Pod가 설치 되었습니다.
 
@@ -97,11 +97,11 @@ $ pod install
 
 프로젝트로 이동해서 빌드를 먼저해보고 이상이 없으면 새로운 파일을 만드는 것을 따라해보세요.
 
-![CreateTestLibrary](../Resource/CreateTestLibrary.png)
+![CreateTestLibrary](../resources/CreateTestLibrary.png)
 
 PodsLibrary에서 오른쪽 클릭 > New File… 선택하고 TestLibrary 클래스 파일을 만듭니다. 그리고 경로를 잡아줄 때 중요합니다. 이 부분이 제대로 안되면 추후 Podfile 로컬로 테스트 에러가 생깁니다.
 
-![PathTestLibrary](../Resource/PathTestLibrary.png)
+![PathTestLibrary](../resources/PathTestLibrary.png)
 
 PodsLibrary > PodsLibrary > Classes 경로에 파일을 생성하고, 아래 Targets 링크를 PodsLibrary를 체크해야 합니다. 파일을 생성하고 아래와 같이 입력을 하고 빌드를 하면 됩니다.
 
@@ -119,7 +119,7 @@ public class TestLibrary: NSObject {
 
 # 라이브러리 테스트 실행
 
-![TestLibrary](../Resource/TestLibrary.png)
+![TestLibrary](../resources/TestLibrary.png)
 
 Example for PodsLibrary 폴더로 이동해서 ViewController.swift 에 다음과 같이 import 시키고 빌드를 해봅니다.
 
@@ -152,11 +152,11 @@ class ViewController: UIViewController {
 
 Xcode > File > New > Project… 선택 LocalTestPod 프로젝트를 생성하고 CocoaPods폴더 경로로 지정합니다.
 
-![LocalTestPod](../Resource/LocalTestPod.png)
+![LocalTestPod](../resources/LocalTestPod.png)
 
 새 프로젝트를 생성을 하고 New File... > Empty File > Podfile을 생성하고 다음과 같이 입력합니다.
 
-![PodfileCreate](../Resource/PodfileCreate.png)
+![PodfileCreate](../resources/PodfileCreate.png)
 
 ~~~bash
 use_frameworks!
@@ -172,7 +172,7 @@ pod 설정을 하는건데 path의 경로는 아까 라이브러리를 만들었
 $ pod install
 ~~~
 
-![LocalPodInstall](../Resource/LocalPodInstall.png)
+![LocalPodInstall](../resources/LocalPodInstall.png)
 
 정상적으로 Pod가 설치되는 것을 확인할 수 있습니다. 이제 .xcworkspace로 다시 Xcode 프로젝트를 실행하고 빌드를 하고 아까처럼 라이브러리를 import시키고 확인해보면 됩니다.
 

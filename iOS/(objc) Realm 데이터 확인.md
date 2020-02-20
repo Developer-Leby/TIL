@@ -14,7 +14,7 @@ Realm 데이터를 확인하기 위해서는 `.realm` 확장자 포멧을 열어
 
 `AppStore`에 이동하여 검색창에 `Realm Browser`라고 입력하고 설치한다.
 
-![RealmBrowser](../Resource/RealmBrowser.png)
+![RealmBrowser](../resources/RealmBrowser.png)
 
 [앱스토어 다운로드](https://itunes.apple.com/kr/app/realm-browser/id1007457278?mt=12)
 
@@ -50,7 +50,7 @@ Simulator에서 Realm이 저장되는 파일의 위치를 확인할 수 있다.
 open file:///Users/leby.y.kim/Library/Developer/CoreSimulator/Devices/9D76320B-D399-443A-96C7-5811DE60634A/data/Containers/Data/Application/F29970C3-4EFD-4E34-B2FB-539EE5D61895/Documents/default.realm
 ~~~
 
-![OpenRealm](../Resource/OpenRealm.png)
+![OpenRealm](../resources/OpenRealm.png)
 
 위 명령어를 입력하면 다음과 같이 실행되고 Realm의 데이터를 확인할 수 있다.
 
@@ -68,7 +68,7 @@ open file:///Users/leby.y.kim/Library/Developer/CoreSimulator/Devices/9D76320B-D
 
 단축키는 `Shift`+`Command`+`2` 누르면 다음과 같은 화면이 나온다.
 
-![DevicesAndSimulator](../Resource/DevicesAndSimulator.png)
+![DevicesAndSimulator](../resources/DevicesAndSimulator.png)
 
 `Devices` 탭에서 앱을 선택하고 아래 `톱니바퀴` 모양을 선택하고 `Download Container...`  를 선택한다.
 

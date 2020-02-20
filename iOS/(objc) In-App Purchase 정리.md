@@ -6,7 +6,7 @@
 
 OFF > ON으로 변경하면 이제부터 이 프로젝트에서는 인앱을 사용할 수 있다.
 
-![Project-Capabillities](../Resource/Project-Capabillities.png)
+![Project-Capabillities](../resources/Project-Capabillities.png)
 
 <br />그리고 애플 개발자 사이트에서 Certificates, Identifiers & Profiles로 이동한다.
 
@@ -16,7 +16,7 @@ App IDs를 가진 프로젝트의 정보를 확인한다.
 
 해당 프로젝트의 In-App Purchase 항목이 Enable로 되어 있으면 기본 설정은 끝났다.
 
-![InAppPurchaseEnable](../Resource/InAppPurchaseEnable.png)
+![InAppPurchaseEnable](../resources/InAppPurchaseEnable.png)
 
 <br />
 
@@ -211,7 +211,7 @@ SKProductsRequestDelegate,SKPaymentTransactionObserver> {
 
 위와 같이 4가지가 있다. 나는 여기에서 2번째 비소모품으로 인앱 상품을 구성하였다.
 
-![RegisterInApp](../Resource/RegisterInApp.png)
+![RegisterInApp](../resources/RegisterInApp.png)
 
 **식별 정보** : com.leby.Memories.InApp (자신의 앱에 맞게 변경하면 됨)
 
@@ -243,7 +243,7 @@ itunesconnect로 이동해서 사용자 및 역할 > Sandbox 테스터 + 눌러 
 >
 > > Sandbox 테스터
 
-![SandboxTester](../Resource/SandboxTester.png)
+![SandboxTester](../resources/SandboxTester.png)
 
 테스트를 진행 할 임의의 이메일 주소를 입력하고 나머지 정보들은 채우면 된다.
 

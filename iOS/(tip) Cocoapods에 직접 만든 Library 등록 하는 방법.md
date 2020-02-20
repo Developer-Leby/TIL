@@ -18,7 +18,7 @@ cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포�
 
 먼저 GitHub로 이동하셔서 Repositories 탭으로 이동해서 New를 눌러 **새로운 레퍼지토리**를 생성합니다. 샘플로 라이브러리를 만들기 때문에 이름을 아무거나 생성해도 됩니다. 저는 `PodsLibrary`로 생성하도록 하겠습니다.
 
-![GitHub Repository](../Resource/GitHub%20Repository.png)
+![GitHub Repository](../resources/GitHub%20Repository.png)
 
 <br />
 
@@ -26,7 +26,7 @@ cocoapods는 iOS에서 Objective-C, Swift 라이브러리를 설치 및 배포�
 
 그리고 아까 프로젝트 라이브러리 폴더로 Finder로 열으셔서 저는 **PodsLibrary**로 폴더를 만들었는데 여기로 이동하시면 `PodsLibrary.podspec ` 이 이름의 파일이 있습니다. 이 파일을 편집기로 열으셔서 다음과 같이 변경해주세요.
 
-![podspec](../Resource/podspec.png)
+![podspec](../resources/podspec.png)
 
 편집기로 실행하면 초기 설정 화면입니다. 중요한 항목들만 보자면 다음과 같습니다.
 
@@ -72,7 +72,7 @@ Validating podspec
     - WARN  | summary: The summary is not meaningful.
 ~~~
 
-![podspecEdit](../Resource/podspecEdit.png)
+![podspecEdit](../resources/podspecEdit.png)
 
 <br />
 
@@ -98,7 +98,7 @@ $ git commit -m "Initial commit"
 
 커밋을 하고 커밋 내용을 입력해줍니다.
 
-![GitCommit](../Resource/GitCommit.png)
+![GitCommit](../resources/GitCommit.png)
 
 정상적으로 커밋이 됐다면 다음과 같은 화면이 보입니다.
 
@@ -128,11 +128,11 @@ $ git push -u origin master --tags
 
 이제 지정된 경로에 push를 하게 되면 로컬에 있는 Source들이 GitHub에 업로드 됩니다.
 
-![remoteGit](../Resource/remoteGit.png)
+![remoteGit](../resources/remoteGit.png)
 
 업로드가 됐다면 다음과 같은 화면이 나옵니다. 이제 GitHub 페이지에 정말로 Source가 업로드 되었는지 확인해봅니다.
 
-![pushGit](../Resource/pushGit.png)
+![pushGit](../resources/pushGit.png)
 
 GitHub에 보니 정상적으로 업로드된 것을 확인할 수 있습니다. README.md 파일의 형식은 기본적으로 자동으로 제공해줍니다. 이제 업로드 된 것을 확인 했으니 이제 **CocoPods**에 **등록**하는 일만 남았습니다.
 
@@ -148,9 +148,9 @@ $ pod trunk register kyi910705@gmail.com "Leby.Y.Kim"
 
 CocoaPods를 인증 받는 메일을 입력하고 뒤 쪽에는 이름이나 닉네임을 적어줍니다. 그리고 입력을 하면 작성하신 메일로 CocoaPods에서 메일을 보냈을 겁니다. 메일로 이동해서 메일온 것을 확인해주세요.
 
-![PodMail](../Resource/PodMail.png)
+![PodMail](../resources/PodMail.png)
 
-![PodSetup](../Resource/PodSetup.png)
+![PodSetup](../resources/PodSetup.png)
 
 메일을 확인하고 해당 주소로 이동하시면 인증이 완료됩니다. 이제 업로드를 시켜봅니다.
 
@@ -186,13 +186,13 @@ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
 
 `Command` + `,` 단축키를 누르거나 위에 메뉴에서 Xcode > Preferences..로 Xcode 환경 설정로 이동하여 위에 탭에 Locations로 이동하여 Command Line Tools를 선택해주면 해결 됩니다.
 
-![CommandLineTool](../Resource/CommandLineTool.png)
+![CommandLineTool](../resources/CommandLineTool.png)
 
 이 외의 다른 이슈가 발생할 확률도 있으니 나머지는 구글링을 통해 찾아보시는게 좋을 것 같습니다.
 
 <br />
 
-![PodPushSuccess](../Resource/PodPushSuccess.png)
+![PodPushSuccess](../resources/PodPushSuccess.png)
 
 터미널에서 아까 입력한 Command가 정상적으로 처리가 되었다면 다음과 같이 축하메세지가 나오면서 CocoaPods에 라이브러리가 등록되었을 겁니다.  축하메세지와 함께 나와있는 URL을 들어가보면 아래 사진과 같이 나오는 것을 확인할 수 있습니다.
 
@@ -200,7 +200,7 @@ xcrun: error: unable to find utility "simctl", not a developer tool or in PATH
 
 # CocoaPods 라이브러리 등록 화면
 
-![CocoaPodsSuccess](../Resource/CocoaPodsSuccess.png)
+![CocoaPodsSuccess](../resources/CocoaPodsSuccess.png)
 
 https://cocoapods.org/pods/PodsLibrary 
 
