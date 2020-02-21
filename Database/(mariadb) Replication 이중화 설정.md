@@ -2,7 +2,7 @@
 
 **1번 서버  `MASTER 설정 `**
 
-- server.conf 설정
+- **server.conf 설정**
 
   ~~~bash
   vi /etc/my.cnf.d/server.cnf
@@ -13,7 +13,7 @@
   log-basename=master1
   ~~~
 
-- MariaDB 재시작
+- **MariaDB 재시작**
 
   ~~~bash
   sudo systemctl stop mariadb
@@ -21,20 +21,20 @@
   sudo systemctl start mariadb
   ~~~
 
-- MariaDB 접속
+- **MariaDB 접속**
 
   ~~~bash
   mysql -u root
   ~~~
 
-- Replication 아이디 생성 및 권한 설정
+- **Replication 아이디 생성 및 권한 설정**
 
   ~~~mysql
   CREATE USER 'leby'@'%' IDENTIFIED BY 'test1234!';
   GRANT REPLICATION SLAVE ON *.* TO ocr;
   ~~~
 
-- Master 정보 확인
+- **Master 정보 확인**
 
   ~~~mysql
   show master status;
@@ -50,7 +50,7 @@
 
 **2번 서버 `Slave 설정`**
 
-- server.conf 설정
+- **server.conf 설정**
 
   ~~~bash
   vi /etc/my.cnf.d/server.cnf
@@ -64,7 +64,7 @@
   max_binlog-size = 100M
   ~~~
 
-- MariaDB 재시작
+- **MariaDB 재시작**
 
   ~~~bash
   sudo systemctl stop mariadb
@@ -72,13 +72,13 @@
   sudo systemctl start mariadb
   ~~~
 
-- MariaDB 접속
+- **MariaDB 접속**
 
   ~~~bash
   mysql -u root
   ~~~
 
-- Slave 아이디 정보 확인
+- **Slave 아이디 정보 확인**
 
   ~~~mysql
   show variables like 'server_id';
@@ -90,7 +90,7 @@
   +---------------+-------+
   ~~~
 
-- Slave - Master 설정
+- **Slave - Master 설정**
 
   ~~~bash
   CHANGE MASTER TO
@@ -103,7 +103,7 @@
       -> MASTER_CONNECT_RETRY=10;
   ~~~
 
-- Slave Replication 시작
+- **Slave Replication 시작**
 
   ~~~mysql
   START SLAVE;
