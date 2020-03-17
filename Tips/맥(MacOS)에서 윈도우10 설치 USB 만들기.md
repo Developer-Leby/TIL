@@ -2,13 +2,15 @@
 
 - [Microsoft Windows 10 ISO Download](https://www.microsoft.com/ko-kr/software-download/windows10ISO)
 
+<br/>
 
+<br/>
 
 ## 디스크 유틸리티 실행
 
 - Launchpad > 기타 >디스크 유틸리티
 
-
+<br/><br/>
 
 ## USB 초기화
 
@@ -18,13 +20,13 @@
 >
 > 포멧 : MS-DOS(FAT)
 
-
+<br/><br/>
 
 ## 윈도우10 ISO 마운트
 
 - GUI 환경에서 더블 클릭
 
-
+<br/><br/>
 
 ## 터미널 실행
 
